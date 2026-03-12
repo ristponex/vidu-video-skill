@@ -31,6 +31,8 @@ Built for the open agent skills ecosystem — works with Claude Code, Cursor, Co
 | Vidu Ref-to-Video Q1 | Reference-to-Video | $0.06/req | Up to 720p | 5/8s | Character-consistent generation |
 | Vidu Ref-to-Video 2.0 | Reference-to-Video | $0.06/req | Up to 720p | 5/8s | Improved reference adherence |
 
+> ⚠️ **Note:** Vidu Q3 models may add mosaic/blur to certain NSFW scenes due to training data limitations. Not guaranteed 100% uncensored. For reliable uncensored output, use **Wan 2.2 Spicy** ($0.03) or **Wan 2.6** ($0.07).
+
 ## Install
 
 **Requirements:** [Bun](https://bun.sh)
@@ -314,6 +316,8 @@ The fast and affordable variant optimized for speed and cost efficiency. Q3-Turb
 - **Best for:** Prototyping, batch generation, fast iteration, budget-conscious production
 - **Strengths:** Fast generation, low cost, reliable quality
 - **Price:** $0.034/request
+
+> ⚠️ **Note:** Vidu Q3 models may add mosaic/blur to certain NSFW scenes due to training data limitations. Not guaranteed 100% uncensored. For reliable uncensored output, use **Wan 2.2 Spicy** ($0.03) or **Wan 2.6** ($0.07).
 
 ### Reference-to-Video
 
