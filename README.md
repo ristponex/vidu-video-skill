@@ -1,8 +1,8 @@
 # Vidu Video Skill
 
-A Claude Code skill for generating videos using Vidu models via Atlas Cloud API. Text-to-video, image-to-video, start-end frame video, reference-to-video — all from your terminal. Anime style, 1080p, audio generation, and fine-grained motion control.
+An AI Agent Skill for generating videos using Vidu models via Atlas Cloud API. Text-to-video, image-to-video, start-end frame video, reference-to-video — all from your terminal. Anime style, 1080p, audio generation, and fine-grained motion control.
 
-Also ships as a [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill for AI-assisted video generation workflows.
+Built for the open agent skills ecosystem — works with Claude Code, Cursor, Codex, Copilot, Gemini CLI, Windsurf, OpenCode, Kiro, and 15+ AI coding agents.
 
 ## Features
 
@@ -55,9 +55,9 @@ Get an Atlas Cloud API key at [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683
 
 Now you can use `vidu-video` from anywhere.
 
-### As a Claude Code Skill
+### As an Agent Skill
 
-When installed as a Claude Code skill, just say `/init` and Claude will clone the repo, install deps, and link the command for you. Then use it by saying "generate a video of..." and Claude handles the rest.
+When installed as an agent skill (works with Claude Code, Cursor, Codex, Copilot, and 15+ AI coding agents), just say `/init` and your AI agent will clone the repo, install deps, and link the command for you. Then use it by saying "generate a video of..." and the agent handles the rest.
 
 ### Fallback (if `bun link` doesn't work)
 
@@ -367,9 +367,9 @@ Built-in anime style support produces high-quality anime-styled videos without n
 - **Game Development** — Cutscene concepts, character motion studies
 - **Video Production** — Visual elements for Remotion/video compositions
 
-## Claude Code Skill
+## Agent Skill Integration
 
-When installed as a Claude Code plugin, the skill triggers on phrases like:
+When installed as an agent skill (works with Claude Code, Cursor, Codex, Copilot, Gemini CLI, Windsurf, Kiro, and more), the skill triggers on phrases like:
 - "generate a video"
 - "create a video clip"
 - "animate this image"
@@ -377,22 +377,22 @@ When installed as a Claude Code plugin, the skill triggers on phrases like:
 - "create a transition between these frames"
 - "generate a video with audio"
 
-Claude will construct the appropriate `vidu-video` command based on your request, handling model selection, resolution, duration, style, movement, audio, and output configuration automatically.
+Your AI agent will construct the appropriate `vidu-video` command based on your request, handling model selection, resolution, duration, style, movement, audio, and output configuration automatically.
 
 ### Example Skill Interactions
 
 ```
 User: "Generate an 8-second anime video of a samurai battle"
-Claude: vidu-video "epic samurai battle scene, dynamic sword fighting" --style anime --duration 8
+Agent: vidu-video "epic samurai battle scene, dynamic sword fighting" --style anime --duration 8
 
 User: "Animate this character image with minimal movement"
-Claude: vidu-video "character performs subtle idle animation" --mode i2v --image character.png --movement small
+Agent: vidu-video "character performs subtle idle animation" --mode i2v --image character.png --movement small
 
 User: "Create a smooth transition between these two frames"
-Claude: vidu-video "smooth cinematic transition" --mode start-end --image start.png --end-image end.png
+Agent: vidu-video "smooth cinematic transition" --mode start-end --image start.png --end-image end.png
 
 User: "Make a product demo video with background music"
-Claude: vidu-video "product rotating on pedestal, clean white background" --bgm --resolution 1080p
+Agent: vidu-video "product rotating on pedestal, clean white background" --bgm --resolution 1080p
 ```
 
 ## Comparison with Other Video Models
