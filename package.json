@@ -1,0 +1,30 @@
+{
+  "name": "vidu-video-skill",
+  "version": "1.0.0",
+  "description": "AI video generation CLI powered by Vidu models (Q3-Pro, Q3-Turbo, Reference-to-Video) via Atlas Cloud API. Text-to-video, image-to-video, start-end frame, anime style, audio generation, 1080p.",
+  "type": "module",
+  "bin": {
+    "vidu-video": "./src/cli.ts"
+  },
+  "scripts": {
+    "start": "bun run src/cli.ts",
+    "dev": "bun run src/cli.ts"
+  },
+  "keywords": [
+    "ai",
+    "video-generation",
+    "vidu",
+    "text-to-video",
+    "image-to-video",
+    "anime",
+    "audio",
+    "atlas-cloud",
+    "cli",
+    "claude-code"
+  ],
+  "author": {
+    "name": "thoughtincode",
+    "url": "https://github.com/thoughtincode"
+  },
+  "license": "MIT"
+}
