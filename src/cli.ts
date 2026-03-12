@@ -99,14 +99,14 @@ OPTIONS:
   -h, --help                Show this help message
 
 MODELS:
-  q3-pro, q3-pro-t2v        Vidu Q3-Pro Text-to-Video ($0.06/req) — best quality, 1080p
-  q3-pro-i2v                Vidu Q3-Pro Image-to-Video ($0.06/req)
-  q3-pro-start-end          Vidu Q3-Pro Start-End Frame ($0.06/req)
-  q3-turbo, q3-turbo-t2v    Vidu Q3-Turbo Text-to-Video ($0.034/req) — fast, affordable
-  q3-turbo-i2v              Vidu Q3-Turbo Image-to-Video ($0.034/req)
-  q3-turbo-start-end        Vidu Q3-Turbo Start-End Frame ($0.034/req)
-  ref-q1                    Reference-to-Video Q1 ($0.06/req)
-  ref-2.0                   Reference-to-Video 2.0 ($0.06/req)
+  q3-pro, q3-pro-t2v        Vidu Q3-Pro Text-to-Video (from $0.06/s) — best quality, 1080p
+  q3-pro-i2v                Vidu Q3-Pro Image-to-Video (from $0.06/s)
+  q3-pro-start-end          Vidu Q3-Pro Start-End Frame (from $0.06/s)
+  q3-turbo, q3-turbo-t2v    Vidu Q3-Turbo Text-to-Video (from $0.034/s) — fast, affordable
+  q3-turbo-i2v              Vidu Q3-Turbo Image-to-Video (from $0.034/s)
+  q3-turbo-start-end        Vidu Q3-Turbo Start-End Frame (from $0.034/s)
+  ref-q1                    Reference-to-Video Q1 (from $0.06/s)
+  ref-2.0                   Reference-to-Video 2.0 (from $0.06/s)
 
 EXAMPLES:
   vidu-video "a cat playing in a garden"

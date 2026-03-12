@@ -82,11 +82,11 @@ Use this skill when the user asks to:
 
 | Model | Price | Use Case |
 |-------|-------|----------|
-| Q3-Pro T2V | $0.06 | Best quality text-to-video, 1080p |
-| Q3-Pro I2V | $0.06 | Animate images, 1080p |
-| Q3-Pro Start-End | $0.06 | Start-end frame interpolation |
-| Q3-Turbo T2V | $0.034 | Fast, affordable text-to-video |
-| Q3-Turbo I2V | $0.034 | Fast image animation |
-| Q3-Turbo Start-End | $0.034 | Fast start-end generation |
-| Ref-to-Video Q1 | $0.06 | Character-consistent video |
-| Ref-to-Video 2.0 | $0.06 | Improved reference adherence |
+| Q3-Pro T2V | $0.06/s | Best quality text-to-video, 1080p |
+| Q3-Pro I2V | $0.06/s | Animate images, 1080p |
+| Q3-Pro Start-End | $0.06/s | Start-end frame interpolation |
+| Q3-Turbo T2V | $0.034/s | Fast, affordable text-to-video |
+| Q3-Turbo I2V | $0.034/s | Fast image animation |
+| Q3-Turbo Start-End | $0.034/s | Fast start-end generation |
+| Ref-to-Video Q1 | $0.06/s | Character-consistent video |
+| Ref-to-Video 2.0 | $0.06/s | Improved reference adherence |

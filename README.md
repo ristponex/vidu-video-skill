@@ -16,20 +16,22 @@ Built for the open agent skills ecosystem — works with Claude Code, Cursor, Co
 - **Movement Amplitude Control** — Fine-tune motion intensity (auto, small, medium, large)
 - **Multiple Aspect Ratios** — 16:9, 9:16, 1:1, and more
 - **Variable Duration** — 5s or 8s video clips
-- **Affordable Pricing** — Starting at just $0.034/video with Atlas Cloud
+- **Affordable Pricing** — Starting at just from $0.034/s with Atlas Cloud
 
 ## Model Variants
 
-| Model | Mode | Price | Resolution | Duration | Notes |
-|-------|------|-------|------------|----------|-------|
-| Vidu Q3-Pro T2V | Text-to-Video | $0.06/req | Up to 1080p | 5/8s | Highest quality |
-| Vidu Q3-Pro I2V | Image-to-Video | $0.06/req | Up to 1080p | 5/8s | Animate any image |
-| Vidu Q3-Pro Start-End | Start-End Frame | $0.06/req | Up to 1080p | 5/8s | Define start and end frames |
-| Vidu Q3-Turbo T2V | Text-to-Video | $0.034/req | Up to 720p | 5/8s | Fast and affordable |
-| Vidu Q3-Turbo I2V | Image-to-Video | $0.034/req | Up to 720p | 5/8s | Fast image animation |
-| Vidu Q3-Turbo Start-End | Start-End Frame | $0.034/req | Up to 720p | 5/8s | Fast start-end generation |
-| Vidu Ref-to-Video Q1 | Reference-to-Video | $0.06/req | Up to 720p | 5/8s | Character-consistent generation |
-| Vidu Ref-to-Video 2.0 | Reference-to-Video | $0.06/req | Up to 720p | 5/8s | Improved reference adherence |
+| Model | Mode | Starting Price per Second | Resolution | Duration | Notes |
+|-------|------|--------------------------|------------|----------|-------|
+| Vidu Q3-Pro T2V | Text-to-Video | from $0.06/s | Up to 1080p | 5/8s | Highest quality |
+| Vidu Q3-Pro I2V | Image-to-Video | from $0.06/s | Up to 1080p | 5/8s | Animate any image |
+| Vidu Q3-Pro Start-End | Start-End Frame | from $0.06/s | Up to 1080p | 5/8s | Define start and end frames |
+| Vidu Q3-Turbo T2V | Text-to-Video | from $0.034/s | Up to 720p | 5/8s | Fast and affordable |
+| Vidu Q3-Turbo I2V | Image-to-Video | from $0.034/s | Up to 720p | 5/8s | Fast image animation |
+| Vidu Q3-Turbo Start-End | Start-End Frame | from $0.034/s | Up to 720p | 5/8s | Fast start-end generation |
+| Vidu Ref-to-Video Q1 | Reference-to-Video | from $0.06/s | Up to 720p | 5/8s | Character-consistent generation |
+| Vidu Ref-to-Video 2.0 | Reference-to-Video | from $0.06/s | Up to 720p | 5/8s | Improved reference adherence |
+
+*Prices shown are starting prices. Higher resolution or longer duration may cost more.*
 
 > ⚠️ **Note:** Vidu Q3 models may add mosaic/blur to certain NSFW scenes due to training data limitations. Not guaranteed 100% uncensored. For reliable uncensored output, use **Wan 2.2 Spicy** ($0.03) or **Wan 2.6** ($0.07).
 
@@ -307,7 +309,7 @@ Vidu's flagship model delivering the highest quality video generation. Q3-Pro su
 
 - **Best for:** Production-quality video, commercial content, high-detail scenes
 - **Strengths:** 1080p output, superior motion quality, accurate prompt following
-- **Price:** $0.06/request
+- **Price:** from $0.06/s
 
 ### Q3-Turbo
 
@@ -315,7 +317,7 @@ The fast and affordable variant optimized for speed and cost efficiency. Q3-Turb
 
 - **Best for:** Prototyping, batch generation, fast iteration, budget-conscious production
 - **Strengths:** Fast generation, low cost, reliable quality
-- **Price:** $0.034/request
+- **Price:** from $0.034/s
 
 > ⚠️ **Note:** Vidu Q3 models may add mosaic/blur to certain NSFW scenes due to training data limitations. Not guaranteed 100% uncensored. For reliable uncensored output, use **Wan 2.2 Spicy** ($0.03) or **Wan 2.6** ($0.07).
 
@@ -327,7 +329,7 @@ Specialized models for character-consistent and style-consistent video generatio
 - **2.0:** Improved adherence to reference images with better motion quality
 - **Best for:** Character animation, consistent branding, series content
 - **Strengths:** Visual consistency, character preservation, style transfer
-- **Price:** $0.06/request
+- **Price:** from $0.06/s
 
 ## Unique Features
 
@@ -403,7 +405,7 @@ Agent: vidu-video "product rotating on pedestal, clean white background" --bgm -
 
 | Feature | Vidu Q3-Pro | Wan 2.6 | Kling 2.0 | Runway Gen-3 |
 |---------|-------------|---------|-----------|---------------|
-| Price | $0.06 | $0.07 | $0.10+ | $0.50+ |
+| Price | from $0.06/s | from $0.07/s | $0.10+ | $0.50+ |
 | 1080p Support | Yes | No | Yes | Yes |
 | Anime Mode | Yes | No | No | No |
 | Start-End Frame | Yes | No | No | No |
@@ -439,8 +441,8 @@ Q3-Turbo supports up to 720p. Use `--model q3-pro` for 1080p output.
 
 This workflow is optimized for Atlas Cloud. Move from experiment to enterprise-ready scale.
 
-- **Production-Ready**: Vidu Q3-Pro at only $0.06/video — premium quality at low cost
-- **Budget Option**: Vidu Q3-Turbo at just $0.034/video for high-volume generation
+- **Production-Ready**: Vidu Q3-Pro at only from $0.06/s — premium quality at low cost
+- **Budget Option**: Vidu Q3-Turbo at just from $0.034/s for high-volume generation
 - **Enterprise Security**: SOC I & II Certified | HIPAA Compliant
 - **Zero Maintenance**: Serverless architecture—focus on your product, not the servers
 
