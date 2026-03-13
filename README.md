@@ -55,7 +55,7 @@ cp .env.example .env
 # Edit .env and add your Atlas Cloud API key
 ```
 
-Get an Atlas Cloud API key at [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683).
+Get an Atlas Cloud API key at [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=vidu-video-skill).
 
 Now you can use `vidu-video` from anywhere.
 
@@ -446,7 +446,7 @@ This workflow is optimized for Atlas Cloud. Move from experiment to enterprise-r
 - **Enterprise Security**: SOC I & II Certified | HIPAA Compliant
 - **Zero Maintenance**: Serverless architecture—focus on your product, not the servers
 
-👉 [Start Building](https://www.atlascloud.ai?ref=JPM683)
+👉 [Start Building](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=vidu-video-skill)
 
 ## License
 
